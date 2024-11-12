@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZURI</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <h2 class="Logo"> ZURI</h2>
+        <nav class="sidebar">
+            <a href="#" class="sideclose" onclick=hidebar()><ion-icon name="close-outline"</a>
+            <a href="#" class="simenu">HOME</a>
+            <a href="#"class="simenu">ABOUT</a>
+            <a href="#"class="simenu">CONTACT</a>
+        </nav>
+        <div class="Search">
+            <input class="srch" type="text" name="" placeholder="Who Do you Want to Meet?">
+            <a href="#"><button type="submit" class="btn">Search</button>
+        </div>
+        <nav class="Nav">
+            <a href="#"class="hideOnMobile">HOME</a>
+            <a href="#"class="hideOnMobile">ABOUT</a>
+            <a href="#"class="hideOnMobile">CONTACT</a>
+            <button class="Login-popup">LogIn</button>
+            <a href="#"class="menulal" onclick="showsidebar()"><ion-icon name="menu-outline"></ion-icon></a>
+        </nav>
+    </header>
+    <div class="content">
+        <h1>ZURI: <br> Fictional Friends,<br> <span>Real </span> Conversations.</h1>
+    </div>
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close-outline"></ion-icon>
+        </span>
+        <div class="formbox login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="inputbox">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <input type="email" type="text" required>
+                    <label>Email/Username</label>
+                </div>
+                <div class="inputbox">
+                    <span class="icon"><ion-icon id="eyeclose" name="eye-off-outline"></ion-icon></span>
+                    <input type="password" id='password' required>
+                    <label>Password</label>
+                </div>
+                <div class="rem-for">
+                    <label><input type="checkbox"required>Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="logbtn">Login</button>
+                <div class="log-reg">
+                    <p>Don't have an account?<a href="#" class="reglink">Register</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="formbox signup">
+            <h2>Register</h2>
+            <form action="#">
+                <div class="inputbox">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="inputbox">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="inputbox">
+                    <span class="icon"><ion-icon id="eyeclose1" name="eye-off-outline" ></ion-icon></span>
+                    <input type="password" required id="password1">
+                    <label>Password</label>
+                </div>
+                <div class="rem-for">
+                    <label><input type="checkbox"required>I agree to the terms and conditions</label>
+                </div>
+                <button type="submit" class="logbtn">Register</button>
+                <div class="log-reg">
+                    <p>Already have an account?<a href="#" class="loglink">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
