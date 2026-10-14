@@ -11,17 +11,17 @@ Mental health conditions like ASD and SAD can make social interaction difficult.
 ZURI offers an accessible alternative: a virtual space where users can rehearse conversations, get real-time feedback, and build confidence at their own pace.
 Features
 
-Role-play scenarios: practise everyday situations, from ordering food at a restaurant to attending a job interview.
+- Role-play scenarios: practise everyday situations, from ordering food at a restaurant to attending a job interview.
 
-AI-driven chatbots: characters that respond naturally and empathetically to the user.
+- AI-driven chatbots: characters that respond naturally and empathetically to the user.
 
-Personalised interactions: NLP-driven conversations that adapt to each user.
+- Personalised interactions: NLP-driven conversations that adapt to each user.
 
-Real-time feedback: guidance during and after each conversation to build confidence.
+- Real-time feedback: guidance during and after each conversation to build confidence.
 
-Adaptive learning: the experience improves through feedback loops.
+- Adaptive learning: the experience improves through feedback loops.
 
-Safe and judgement-free: a private space to make mistakes and try again.
+- Safe and judgement-free: a private space to make mistakes and try again.
 
 # How It Works
 The user picks a scenario (for example, a job interview or a casual chat).
@@ -34,6 +34,7 @@ The user receives feedback and can retry the scenario to improve.
 Frontend: HTML-CSS-JS
 
 Backend: Python
+
 AI / NLP: NLTK and Gemini 
 
  
